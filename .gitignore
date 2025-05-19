@@ -1,0 +1,44 @@
+# Ignore large files and directories
+
+# StableVITON results and output
+results/
+stableviton_results_*/
+*.jpg
+*.png
+*.jpeg
+
+# Model weights and checkpoints
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+StableVITON/ckpts/
+
+# Dataset directories
+StableVITON/data/
+
+# Virtual environment
+stableviton_env/
+venv/
+env/
+
+# Logs and cached files
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large temporary files
+*.tmp
+*.temp
+*.bak
+
+# Repository-specific large files
+sampled_images/ 
