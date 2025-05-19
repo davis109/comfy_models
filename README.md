@@ -29,17 +29,7 @@ test/
 
 The `train_pairs.txt` and `test_pairs.txt` files contain mappings between person images and clothing items to try on.
 
-## Usage
 
-To run the demo script, use the following command:
-
-```bash
-# For training dataset visualization:
-python demo.py --data_root train --pairs_file train_pairs.txt --num_samples 5
-
-# For test dataset visualization:
-python demo.py --data_root test --pairs_file test_pairs.txt --num_samples 5 --output_dir results_test
-```
 
 ### Options
 
@@ -59,7 +49,6 @@ The script creates visualizations of each sample pair, showing:
 5. The DensePose representation
 6. A placeholder for the virtual try-on result
 
-These visualizations help understand the input data format required by the StableVITON model.
 
 ## Full Implementation
 
